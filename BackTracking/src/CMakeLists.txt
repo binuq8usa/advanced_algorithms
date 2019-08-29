@@ -1,0 +1,4 @@
+set(SRC_FOLDER ${PROJECT_SOURCE_DIR}/src)
+file(GLOB_RECURSE SRC_FILES ${SRC_FOLDER}/*.cpp ${SRC_FOLDER}/*.h)
+
+add_library(${PROJECT_NAME} ${SRC_FILES})

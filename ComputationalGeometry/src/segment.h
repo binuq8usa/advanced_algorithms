@@ -4,6 +4,8 @@
 #include "point.h"
 #include <set>
 
+// EXAMPLE!!!!
+
 using namespace std;
 
 template <class T, class U=int>
